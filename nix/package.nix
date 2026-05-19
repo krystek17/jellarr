@@ -37,7 +37,7 @@ pkgs.stdenvNoCC.mkDerivation (finalAttrs: {
   nativeBuildInputs = [
     pkgs.makeBinaryWrapper
     pkgs.nodejs_24
-    pkgs.pnpm.configHook
+    pkgs.pnpmConfigHook
   ];
 
   pname = "jellarr";
